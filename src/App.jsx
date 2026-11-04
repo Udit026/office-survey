@@ -111,11 +111,11 @@ export default function App() {
       <header className="site-header">
         <div className="site-header__inner">
           <div className="logo" aria-hidden="true">
-            <span>SKYTRAX</span>
+            {/* <span>SKYTRAX</span> */}
           </div>
           <div className="site-header__text">
-            <p className="site-header__title">World Office Survey</p>
-            <p className="site-header__sub">World Office Awards</p>
+            <p className="site-header__title">Office Picnic Form</p>
+            {/* <p className="site-header__sub">World Office Awards</p> */}
           </div>
         </div>
       </header>
@@ -341,7 +341,7 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
-        <p>© {new Date().getFullYear()} Skytrax. All rights reserved.</p>
+        {/* <p>© {new Date().getFullYear()} Skytrax. All rights reserved.</p> */}
       </footer>
     </>
   );
